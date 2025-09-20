@@ -8,9 +8,9 @@ title: Install Https File Server on Linux ARM Device | Pi-Apps
 ## <img src="/img/app-icons/Https File Server/icon-64.png"> Https File Server
 > Simple file-sharing webserver. Other computers on your local network can connect to your computer from the web browser and download files you share.
 > Or, you can enable port forwarding on your router so that anyone on the Internet can download your files.
-> This app uses Wine to run a windows exe file.
 > 
-> To launch: Menu -> Applications -> HTTPS File Server
+> To run: Menu -> Applications -> HTTPS File Server
+> To run in a terminal: npm exec --yes hfs@latest
 
 Fortunately, Https File Server is very easy to install on your Linux ARM Device in just two steps.
 1. Install Pi-Apps - the best app installer for Linux ARM Device.
@@ -20,7 +20,7 @@ Fortunately, Https File Server is very easy to install on your Linux ARM Device 
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Https File Server will only run on an Ubuntu/Debian ARM32 OS. Pi-Apps will not let you install Https File Server on an Ubuntu/Debian ARM64 OS.
+Https File Server will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
 </div>
 <div class="simple-install-content content">
 
