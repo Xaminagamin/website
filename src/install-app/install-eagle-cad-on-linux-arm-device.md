@@ -20,7 +20,7 @@ Fortunately, Eagle CAD is very easy to install on your Linux ARM Device in just 
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Eagle CAD will only run on an Ubuntu/Debian ARM32 OS. Pi-Apps will not let you install Eagle CAD on an Ubuntu/Debian ARM64 OS.
+Eagle CAD will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
 </div>
 <div class="simple-install-content content">
 

@@ -1,9 +1,9 @@
 ---
-title: Install Eagle CAD on Raspberry Pi | Pi-Apps
+title: Install Eagle CAD on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Eagle CAD/icon-64.png" height=24> Eagle CAD on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Eagle CAD/icon-64.png" height=24> Eagle CAD on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Eagle CAD/icon-64.png"> Eagle CAD
 > Design printed circuit boards.
@@ -12,22 +12,21 @@ title: Install Eagle CAD on Raspberry Pi | Pi-Apps
 > To run: Menu -> Programming -> Eagle
 > To run in a terminal: eagle
 
-Fortunately, Eagle CAD is very easy to install on your Raspberry Pi in just two steps.
-1. Install Pi-Apps - the best app installer for Raspberry Pi.
+Fortunately, Eagle CAD is very easy to install on your Nvidia Jetson in just two steps.
+1. Install Pi-Apps - the best app installer for Nvidia Jetson.
 2. Use Pi-Apps to install Eagle CAD.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
-Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
-Eagle CAD will run on either PiOS 32-bit or 64-bit.
+For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson Xavier, or Jetson Orin).
+Eagle CAD will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
 ## Install Pi-Apps
 
-Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Raspberry Pi with just a few clicks.
+Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Nvidia Jetson with just a few clicks.
 
 Open a terminal and run this command to install Pi-Apps:
 ```bash
