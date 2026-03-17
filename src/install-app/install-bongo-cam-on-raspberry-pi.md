@@ -12,10 +12,10 @@ title: Install Bongo Cam on Raspberry Pi | Pi-Apps
 > Default keyboard shortcuts: Z and X to tap on the keyboard, C to wear sunglasses, and V to wave.
 > 
 > To run: Menu -> Sound & Video -> Bongo Cam
-> To run in a terminal: ~/bongocam/bongo
+> To run in a terminal: bongo
 > 
 > Go here for configuration options: https://github.com/kuroni/bongocat-osu/wiki/Settings
-> NOTE: The app files are stored in ~/bongocam/
+> NOTE: This app can't see your mouse movements on Wayland desktops. To make it work the best, switch to X11.
 
 Fortunately, Bongo Cam is very easy to install on your Raspberry Pi in just two steps.
 1. Install Pi-Apps - the best app installer for Raspberry Pi.
@@ -26,7 +26,7 @@ Fortunately, Bongo Cam is very easy to install on your Raspberry Pi in just two 
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
 Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
-**Bongo Cam will only run on PiOS 32-bit.** Pi-Apps will not let you install Bongo Cam on PiOS 64-bit.
+Bongo Cam will run on either PiOS 32-bit or 64-bit.
 </div>
 <div class="simple-install-content content">
 

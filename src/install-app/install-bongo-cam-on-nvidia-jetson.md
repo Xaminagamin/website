@@ -1,9 +1,9 @@
 ---
-title: Install Bongo Cam on Linux ARM Device | Pi-Apps
+title: Install Bongo Cam on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Bongo Cam/icon-64.png" height=24> Bongo Cam on Linux ARM Device
+# Install <img src="/img/app-icons/Bongo Cam/icon-64.png" height=24> Bongo Cam on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
 ## <img src="/img/app-icons/Bongo Cam/icon-64.png"> Bongo Cam
 > If you want to make a video but don't want to show your face, why not use this animated cat program?
@@ -17,21 +17,21 @@ title: Install Bongo Cam on Linux ARM Device | Pi-Apps
 > Go here for configuration options: https://github.com/kuroni/bongocat-osu/wiki/Settings
 > NOTE: This app can't see your mouse movements on Wayland desktops. To make it work the best, switch to X11.
 
-Fortunately, Bongo Cam is very easy to install on your Linux ARM Device in just two steps.
-1. Install Pi-Apps - the best app installer for Linux ARM Device.
+Fortunately, Bongo Cam is very easy to install on your Nvidia Jetson in just two steps.
+1. Install Pi-Apps - the best app installer for Nvidia Jetson.
 2. Use Pi-Apps to install Bongo Cam.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Bongo Cam will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
+For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson Xavier, or Jetson Orin).
+Bongo Cam will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
 ## Install Pi-Apps
 
-Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Linux ARM Device with just a few clicks.
+Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Nvidia Jetson with just a few clicks.
 
 Open a terminal and run this command to install Pi-Apps:
 ```bash

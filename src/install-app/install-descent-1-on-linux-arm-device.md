@@ -7,9 +7,9 @@ title: Install Descent 1 on Linux ARM Device | Pi-Apps
 
 ## <img src="/img/app-icons/Descent 1/icon-64.png"> Descent 1
 > D1X-Rebirth - source port of Descent: First Strike from 1995
-> This package installs the shareware version, if you own the full game you can copy the game data to ~/.d1x-rebirth directory (replacing existing files).
+> This package installs the shareware version, if you own the full game you can copy the game data to /opt/d1x-rebirth directory (replacing existing files).
 > To run: Menu -> Games -> Descent 1
-> To run in a terminal: ~/.d1x-rebirth/d1x-rebirth-rpi -hogdir ~/.d1x-rebirth
+> To run in a terminal: d1x-rebirth
 > To exit: select "Quit" in the game's main menu.
 
 Fortunately, Descent 1 is very easy to install on your Linux ARM Device in just two steps.
@@ -20,7 +20,7 @@ Fortunately, Descent 1 is very easy to install on your Linux ARM Device in just 
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest LTS of Ubuntu or Debian from your hardware manufacturer.
-Descent 1 will only run on an Ubuntu/Debian ARM32 OS. Pi-Apps will not let you install Descent 1 on an Ubuntu/Debian ARM64 OS.
+Descent 1 will run on either an Ubuntu/Debian ARM32 OS or ARM64 OS.
 </div>
 <div class="simple-install-content content">
 

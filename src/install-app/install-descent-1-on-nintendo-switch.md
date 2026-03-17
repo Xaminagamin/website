@@ -1,9 +1,9 @@
 ---
-title: Install Descent 1 on Raspberry Pi | Pi-Apps
+title: Install Descent 1 on Nintendo Switch | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Descent 1/icon-64.png" height=24> Descent 1 on <img src=/img/other-icons/raspberrypi-icon.svg height=24> Raspberry Pi
+# Install <img src="/img/app-icons/Descent 1/icon-64.png" height=24> Descent 1 on <img src=/img/other-icons/switch-icon.svg height=24> Nintendo Switch
 
 ## <img src="/img/app-icons/Descent 1/icon-64.png"> Descent 1
 > D1X-Rebirth - source port of Descent: First Strike from 1995
@@ -12,22 +12,21 @@ title: Install Descent 1 on Raspberry Pi | Pi-Apps
 > To run in a terminal: d1x-rebirth
 > To exit: select "Quit" in the game's main menu.
 
-Fortunately, Descent 1 is very easy to install on your Raspberry Pi in just two steps.
-1. Install Pi-Apps - the best app installer for Raspberry Pi.
+Fortunately, Descent 1 is very easy to install on your Nintendo Switch in just two steps.
+1. Install Pi-Apps - the best app installer for Nintendo Switch.
 2. Use Pi-Apps to install Descent 1.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
-For the best chance of this working, we recommend using the latest version of [Raspberry Pi OS](https://www.raspberrypi.com/software/), which is currently version **Bookworm**.
-Raspberry Pi OS has 32-bit and 64-bit variants, both of which will run on most Raspberry Pi computers, including the Pi 3, Pi 4, and Pi5.
-Descent 1 will run on either PiOS 32-bit or 64-bit.
+For the best chance of this working, we recommend using the latest version of [Switchroot L4T Ubuntu Noble](https://wiki.switchroot.org/wiki/linux/l4t-ubuntu-noble-installation-guide), which is currently version **5.1.2 Ubuntu Noble**.
+Descent 1 will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
 ## Install Pi-Apps
 
-Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Raspberry Pi with just a few clicks.
+Pi-Apps is a free tool that makes it incredibly easy to install the most useful programs on your Nintendo Switch with just a few clicks.
 
 Open a terminal and run this command to install Pi-Apps:
 ```bash
