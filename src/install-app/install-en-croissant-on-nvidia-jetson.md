@@ -1,27 +1,35 @@
 ---
-title: Install Tetris CLI on Nvidia Jetson | Pi-Apps
+title: Install En Croissant on Nvidia Jetson | Pi-Apps
 ---
 <div class="simple-install-content content">
 
-# Install <img src="/img/app-icons/Tetris CLI/icon-64.png" height=24> Tetris CLI on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
+# Install <img src="/img/app-icons/En Croissant/icon-64.png" height=24> En Croissant on <img src=/img/other-icons/nvidia-icon.svg height=24> Nvidia Jetson
 
-## <img src="/img/app-icons/Tetris CLI/icon-64.png"> Tetris CLI
-> ASCII/CLI rendition of the Tetris game.
+## <img src="/img/app-icons/En Croissant/icon-64.png"> En Croissant
+> The Ultimate Chess Toolkit.
 > 
-> As one of the most recognizable and influential video game brands in the world, it’s no wonder why there are hundreds of millions of Tetris products being played, worn, and enjoyed by fans in their everyday lives. For over thirty-five years, the game and brand have truly transcended the barriers of culture and language, resulting in a fun and exciting playing experience for everyone, everywhere!
+> En Croissant is a powerful chess database, analysis, and preparation tool.
 > 
-> To run: Menu -> Games -> Tetris CLI
-> To run in a terminal: tetris-cli
+> Features:
+> • PGN database management
+> • Chess engine analysis
+> • Opening preparation tools
+> • Modern fast UI built with Tauri
+> 
+> This Pi-Apps package compiles the latest official release from source, providing a clean, up-to-date build with full compatibility across ARM systems.
+> 
+> To run: Menu -> Games -> En Croissant
+> To run in a terminal: en-croissant
 
-Fortunately, Tetris CLI is very easy to install on your Nvidia Jetson in just two steps.
+Fortunately, En Croissant is very easy to install on your Nvidia Jetson in just two steps.
 1. Install Pi-Apps - the best app installer for Nvidia Jetson.
-2. Use Pi-Apps to install Tetris CLI.
+2. Use Pi-Apps to install En Croissant.
 </div>
 <div class="simple-install-content content">
 
 ## Compatibility
 For the best chance of this working, we recommend using the latest version of [Nvidia Jetpack](https://developer.nvidia.com/embedded/jetpack-archive) for your specific Jetson (Jetson Xavier, or Jetson Orin).
-Tetris CLI will run on L4T Ubuntu ARM64.
+En Croissant will run on L4T Ubuntu ARM64.
 </div>
 <div class="simple-install-content content">
 
@@ -37,16 +45,16 @@ Feel free to check out the Pi-Apps source code here: https://github.com/Botspot/
 </div>
 <div class="simple-install-content content">
 
-## Install Tetris CLI
+## Install En Croissant
 
-Now that you have Pi-Apps installed, it is time to install Tetris CLI.
+Now that you have Pi-Apps installed, it is time to install En Croissant.
 First launch Pi-Apps from your start menu:
 <img src="/img/start-menu.png">
 Then click on the <b>Games</b> category.
 <img src="/img/category-selections/Games.png">
-Now scroll down to find <b>Tetris CLI</b> in the list.
-<img src="/img/app-icons/Tetris CLI/app-selection.png">
-Just click Install and Pi-Apps will install Tetris CLI for you!
+Now scroll down to find <b>En Croissant</b> in the list.
+<img src="/img/app-icons/En Croissant/app-selection.png">
+Just click Install and Pi-Apps will install En Croissant for you!
 </div>
 <div class="simple-install-content content">
 
